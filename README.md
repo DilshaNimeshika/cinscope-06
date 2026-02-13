@@ -15,10 +15,58 @@ git init
 ```bash
 git status
 ```
-## step 08 : check the git version
+## step 08 : add files to the git using
 ```bash
-git -v
+git add .
 ```
+
+## step 09 : commit the changes with the meaningful commit message
+```bash
+git commit -m "initial project commit "
+```
+
+## step 10 : check if there's any remote urls
+```bash
+git remote -v
+```
+## step 11 : add remote
+```bash
+git remote add origin git@github.com:<remote-url>
+```
+
+## step 12 : check if the remote url configured without issue
+```bash
+git remote -v
+```
+
+## step 13 : make sure the default branch is your main branch
+```bash
+git branch -M main
+```
+
+## step 14 : push the local commits to the remote/cloud branch
+```bash
+git push -u origin main
+```
+
+## step 15 : check if the changes are there in the remote
+
+-----
+
+## step 16 : do a file change
+
+## step 17 : check the file change in vs code
+
+## step 18 : check file change in the terminal using
+```bash
+git status
+```
+
+
+
+
+
+
 
 
 
