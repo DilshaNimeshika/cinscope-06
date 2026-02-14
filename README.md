@@ -62,6 +62,23 @@ git push -u origin main
 git status
 ```
 
+## step 19 : Repeat step 8
+
+## step 20 : proper commit message
+```bash
+git commit -m "update the steps in documentation"
+```
+
+## step 21 : push the changes to existing branch
+```bash
+git push
+```
+
+## step 22 : create a new branch called "dev" from "main" branch
+```bash
+git checkout -b dev
+```
+
 
 
 
