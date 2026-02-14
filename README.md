@@ -79,6 +79,11 @@ git push
 git checkout -b dev
 ```
 
+## step 23 : publish the branch to remote "origin dev"
+```bash
+git push -u origin dev
+```
+
 
 
 
