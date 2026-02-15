@@ -102,6 +102,26 @@ git checkout main
 
 # Pull the changes to local from remote
 git pull
+
+git checkout
+
+# Stash changes temporary
+git stash
+
+# Apply Stashed changes back
+git stash apply
+
+#Merge changes in dev branch to main
+
+git checkout main
+
+git merge dev
+
+git status
+
+git push
+
+
 ```
 
 
