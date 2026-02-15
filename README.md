@@ -67,7 +67,7 @@ git status
 ## step 20 : proper commit message
 ```bash
 git commit -m "update the steps in documentation"
-```
+``
 
 ## step 21 : push the changes to existing branch
 ```bash
@@ -82,6 +82,26 @@ git checkout -b dev
 ## step 23 : publish the branch to remote "origin dev"
 ```bash
 git push -u origin dev
+```
+
+## step 24 : Repeat step 8
+
+## step 25 : Create a pull request from github and merge it to main
+
+
+```bash
+# Navigate between branches
+git checkout main 
+git checkout dev
+
+# Check the changes/status between local and remote
+git fetch
+
+# Checkout to main branch
+git checkout main
+
+# Pull the changes to local from remote
+git pull
 ```
 
 
